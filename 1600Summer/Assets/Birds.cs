@@ -8,6 +8,7 @@ public class Birds : Animal {
     //Beaks
     //Wings
     //Color
+    public Color featherColor = Color.red;
 
     //Functions
 	//BuildNests
