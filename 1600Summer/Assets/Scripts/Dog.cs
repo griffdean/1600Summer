@@ -27,9 +27,20 @@ public class Dog : MammalsWithLegs {
             print("This is a dog.");
         }
 
-        if (tail && paws)
+        if (!(tail && paws))
+        {
+            print("This is not a dog.");
+        }
+
+        if (tail || numLegs == 4)
         {
             print("This is a dog.");
         }
+
+        if(numLegs != 4 || !paws)
+        {
+            print("This is not a dog.");
+        }
+
     }
 }

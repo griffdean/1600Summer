@@ -80,6 +80,8 @@ public class Animal : MonoBehaviour {
         {
             Debug.LogError("You can't divide by zero.");
         }
+
+
     }
     //Move
     //Die
